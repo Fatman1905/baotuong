@@ -1,0 +1,110 @@
+/* Thiết lập chung cho trang web */
+body {
+    background-color: #f0f0f0; /* Màu nền xám nhạt làm nền báo */
+    font-family: "Times New Roman", Times, serif; /* Phông chữ có chân kiểu báo chí */
+    color: #333;
+}
+
+/* Khung chính của tờ báo (Bài 11: Mô hình hộp) */
+#container {
+    background-color: white;
+    width: 800px; /* Chiều rộng cố định */
+    margin: 20px auto; /* Căn giữa trang web */
+    padding: 20px; /* Vùng đệm bên trong */
+    border: 1px solid #999; /* Đường viền mỏng */
+    box-shadow: 5px 5px 10px #888; /* Đổ bóng nhẹ cho đẹp (tùy chọn) */
+}
+
+/* Định dạng Phần đầu (Header) */
+#header {
+    text-align: center; /* Căn giữa nội dung */
+    border-bottom: 3px double black; /* Kẻ đường đôi dưới tiêu đề */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #b30000; /* Màu đỏ đậm cho tiêu đề lớn */
+    text-transform: uppercase; /* Chữ in hoa */
+    margin-bottom: 5px;
+}
+
+.thong-tin-phu {
+    font-style: italic; /* Chữ nghiêng */
+    color: #555;
+}
+
+/* Định dạng Tiêu đề các mục */
+h3 {
+    background-color: #eee;
+    padding: 5px;
+    border-left: 5px solid #b30000; /* Đường viền trang trí bên trái */
+}
+
+/* Định dạng đoạn văn bản */
+.doan-van {
+    text-align: justify; /* Canh đều 2 bên lề giống báo */
+    line-height: 1.5; /* Khoảng cách dòng */
+    font-size: 18px;
+}
+
+/* Định dạng Hình ảnh */
+.gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.anh-minh-hoa {
+    width: 30%; /* Mỗi ảnh chiếm khoảng 1/3 chiều rộng */
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin: 1%; /* Khoảng cách giữa các ảnh */
+}
+
+/* Định dạng Bảng báo cáo (Bài 8 & CSS) */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp đường viền bảng */
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Định dạng đặc biệt trong bảng */
+.dam {
+    font-weight: bold;
+}
+
+.highlight {
+    color: #b30000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Định dạng khung bình luận */
+.form-binh-luan {
+    background-color: #fff8dc; /* Màu nền kem nhạt */
+    padding: 15px;
+    border: 1px dashed orange;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
